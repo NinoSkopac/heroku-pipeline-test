@@ -1,0 +1,16 @@
+{
+  "name": "heroku-pipeline-test",
+  "scripts": {},
+  "env": {
+    "FOO": {
+      "required": true
+    }
+  },
+  "formation": {},
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
